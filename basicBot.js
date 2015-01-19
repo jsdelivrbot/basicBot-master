@@ -174,7 +174,7 @@
         return m;
     };
 
-    var botCreator = "Matthew aka. Yemasthui";
+    var botCreator = "Beli";
     var botCreatorIDs = [];
 
     var basicBot = {
@@ -191,7 +191,7 @@
         retrieveFromStorage: retrieveFromStorage,
         settings: {
             botName: "basicBot",
-            language: "english",
+            language: "en",
             chatLink: "https://rawgit.com/Belioon/basicBot-master/master/lang/en.json",
             maximumAfk: 120,
             afkRemoval: true,
