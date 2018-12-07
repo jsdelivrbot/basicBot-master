@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Belioon/basicBot-master/master/lang/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/Belioon/basicBot-master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -182,9 +182,9 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Belioon/basicBot-master/master/basicBot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/Belioon/basicBot-master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Belioon/basicBot-master/master/lang/en.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/Belioon/basicBot-master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -192,7 +192,7 @@
         settings: {
             botName: "basicBot",
             language: "en",
-            chatLink: "https://rawgit.com/Belioon/basicBot-master/master/lang/en.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/Belioon/basicBot-master/lang/en.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
